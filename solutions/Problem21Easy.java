@@ -2,7 +2,18 @@
 
 public class Problem21Easy{
 
-    public void addLast(ListNode l, int d){
+    // Definition for singly-linked list.
+
+    public class ListNode{
+        int val;
+        ListNode next;
+
+        ListNode(int x){
+            val = x;
+        }
+    }
+
+    private void addLast(ListNode l, int d){
         ListNode last = new ListNode(d);
         ListNode node = l;
         if(l == null){
