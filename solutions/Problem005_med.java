@@ -1,6 +1,6 @@
 // 5. Longest Palindromic Substring
 
-public class Problem5Medium {
+public class Problem005_med {
 
     private static String expand(String s, int left, int right) {
 

@@ -1,6 +1,6 @@
 // 11. Container With Most Water
 
-public class Problem11Medium {
+public class Problem011_med {
 
     public int maxArea(int[] height) {
         int maxArea = 0;

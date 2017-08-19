@@ -1,6 +1,6 @@
 // 6. ZigZag Conversion
 
-public class Problem6Medium {
+public class Problem006_med {
     public String convert(String s, int numRows) {
 
         if (numRows == 1) {

@@ -1,6 +1,6 @@
 // 12. Integer to Roman
 
-public class Problem12Medium {
+public class Problem012_med {
     public String intToRoman(int num) {
         if (num == 0) {
             return "";
